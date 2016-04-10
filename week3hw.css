@@ -1,0 +1,104 @@
+html {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	background: url('https://www.google.ae/search?q=star+war+background+hd&espv=2&biw=1202&bih=637&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM5eXplKLJAhVGfA8KHe43AdIQ_AUIBigB#tbm=isch&q=star+wallpaper+hd&imgrc=zbNiTvG5T8AQhM%3A');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size:100% 100%; 
+	background-size:100% 100%; 
+}
+
+input {
+	display:block;
+	margin:20px auto;
+	padding: 5px;
+	width: 30%;
+	height: 40px;
+	font-size: 2vw;
+	border-radius: 10px;
+	border: 2px solid;
+	border-color: #c6cbcc;
+}
+
+input:active, input:focus{
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+input:hover {
+	box-shadow: 10px 10px 50px 5px #c6cbcc;
+}
+
+button {
+	display: block;
+	margin:10px auto;
+	width: 20%;
+	height: 40px;
+	font-size: 2vw;
+	border: 1px;
+	border-radius: 25px;
+	background-color: white;
+	color:white;
+
+}
+
+button:active, button:focus{
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+button:hover {
+	box-shadow: 10px 10px 50px 5px rgba(171,130,255, 0.8);
+}
+
+.title {
+	font-size: 4vw;
+	text-align: center;
+	margin: 30px auto 20px;
+	color: rgba(171,130,255, 0.8);
+	font-weight: bold;
+}
+
+.theSearchResult {
+	text-align: center;
+	font-size: 16px;
+	margin: 10px;
+}
+
+.box{
+	display: block;
+	width: 35%;
+	height: 35%;
+	margin:	50px auto;
+
+}
+
+img{
+	width: 100%;
+	display: block;
+	border-radius: 25px;
+	border-style: solid;
+	border-color: #c6cbcc;
+	border-width: medium;
+}
+
+img:hover {
+	box-shadow: 20px 20px 50px 5px pink;
+}
+
+#container{
+	width: 90%;
+	margin: 20px auto;
+}
+
+.errormessage {
+	font-size: 1.2vw;
+	text-align: center;
+	color: rgba(0,0,0, 0.6);
+	margin: 30px;
+}
